@@ -9,3 +9,5 @@ Essencialmente, será necessário:
 3. Criar uma conta no site ngrok.com e obter um token de autenticação;
 4. Baixar uma imagem CIFAR-10 de exemplo (disponível nesse [link](https://www.kaggle.com/datasets/swaroopkml/cifar10-pngs-in-folders));
 5. Usar seu cliente preferido para realizar uma requisição POST a `<sua_url_ngrok>/predict` com a imagem anexada no corpo do request.
+
+O arquivo de treinamento `train_model.ipynb` não é necessário para a execução da aplicação, mas foi inserido no repositório para demonstrar como o arquivo do modelo foi gerado.
